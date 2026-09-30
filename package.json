@@ -1,0 +1,40 @@
+{
+  "name": "phantomrog",
+  "version": "1.0.0",
+  "description": "PhantomRog - AI Agency Website with 3D Live Visuals",
+  "author": "PhantomVaib",
+  "license": "Proprietary",
+  "keywords": [
+    "ai-agency",
+    "three.js",
+    "3d-graphics",
+    "web-development",
+    "ai",
+    "chatbots",
+    "call-agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhantomVaib/PhantomRog.git"
+  },
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server",
+    "build": "echo 'No build required - static site'",
+    "test": "echo 'Testing not configured'"
+  },
+  "dependencies": {
+    "three": "^r128"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
